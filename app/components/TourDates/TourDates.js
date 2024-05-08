@@ -132,7 +132,7 @@ export default function TourDates() {
               </div>
               <div className="ml-2.5 lg:ml-auto">
                 <ButtonPrimary customClasses="text-xs md:text-sm lg:text-base">
-                  Get Ticket
+                  Get Book
                 </ButtonPrimary>
               </div>
             </div>

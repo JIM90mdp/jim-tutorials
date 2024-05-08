@@ -44,10 +44,10 @@ export default function About() {
           </p>
 
           <a href={"https://jim-music-producer.vercel.app/"} target="_blank">
-            <p className="text-fluo-green pt-8">
-             Personal web site
-              
-            </p>
+            <div className="pt-8  inline-block whitespace-nowrap">
+            ¡Visit my 
+              <span className="text-fluo-green pl-3">personal web site</span>!
+            </div>
           </a>
           <div className="flex pt-8 gap-4">
             <a

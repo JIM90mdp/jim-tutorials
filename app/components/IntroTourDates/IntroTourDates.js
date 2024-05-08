@@ -67,7 +67,7 @@ export default function IntroTourDates() {
 								<p>{gig.tutorialName}</p>
 								<p>{gig.concepts}</p>
 								<div className="flex justify-end md:hidden">
-									<HeartOutline extraClasses="fill-[#0d9eaf] mr-2" />
+									<HeartOutline extraClasses="fill-[#0d9eaf] mr-2 " />
 									<p>{gig.dificulty}</p>
 								</div>
 							</div>

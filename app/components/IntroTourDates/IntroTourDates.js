@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useIsIntersecting } from "@/app/util/useObserver";
 import ScrollTo from "@/app/global-components/ScrollTo/ScrollTo";
 import ButtonPrimary from "@/app/global-components/ButtonPrimary/ButtonPrimary";
-import { MapMapper, Github } from "@/app/svg-icons/svg-icons";
+import { MapMapper, Github, Play, HeartOutline } from "@/app/svg-icons/svg-icons";
 
 const observerOptions = {
 	rootMargin: "0px",
@@ -29,7 +29,7 @@ const tourDates = [
 	{
 		id: 3,
 		price: "300$",
-		tutorialName: "Musica composition I, II  & III",
+		tutorialName: "Music composition I, II  & III",
 		concepts: "Pop, Funk & Jazz",
 		dificulty: "Intermediate & Advanced",
 	},
@@ -67,12 +67,12 @@ export default function IntroTourDates() {
 								<p>{gig.tutorialName}</p>
 								<p>{gig.concepts}</p>
 								<div className="flex justify-end md:hidden">
-									<MapMapper extraClasses="fill-[#0d9eaf] mr-2" />
+									<HeartOutline extraClasses="fill-[#0d9eaf] mr-2" />
 									<p>{gig.dificulty}</p>
 								</div>
 							</div>
 							<div className="hidden text-right text-white leading-none md:flex">
-								<MapMapper extraClasses="fill-[#0d9eaf] mr-2" />
+								<HeartOutline extraClasses="fill-[#0d9eaf] mr-2" />
 								<p>{gig.dificulty}</p>
 							</div>
 						</li>
